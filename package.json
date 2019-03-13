@@ -1,0 +1,21 @@
+{
+  "name": "phaser-seed",
+  "version": "1.0.0",
+  "description": "Get a simple Phaser 3 app up and running in no time.",
+  "main": "index.js",
+  "repository": "https://github.com/sampathsris/phaser-seed.git",
+  "author": "Sampath Sitinamaluwa",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.0",
+    "parcel-plugin-simple-asset-copier": "^1.0.1"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "phaser": "^3.16.2"
+  },
+  "keywords": "phaser, phaser3, getting-started, seed"
+}
